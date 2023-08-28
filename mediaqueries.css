@@ -1,8 +1,4 @@
 @media screen and (max-width: 1400px) {
-  #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
-  }
   .about-containers {
     flex-wrap: wrap;
   }
@@ -44,13 +40,8 @@
 }
 
 @media screen and (max-width: 600px) {
-  #contact,
   footer {
     height: 40vh;
-  }
-  #profile {
-    height: 83vh;
-    margin-bottom: 0;
   }
   article {
     font-size: 1rem;
@@ -60,14 +51,9 @@
     margin-bottom: 2rem;
   }
   .about-containers,
-  .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
   }
-  .contact-info-container {
-    margin: 0;
-  }
-  .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
   }
@@ -95,5 +81,14 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .contactContainer {
+    flex-direction: column;
+  }
+  .contactContainer .contactInfo {
+    margin-bottom: 40px;
+  }
+  .contactContainer .contactInfo .contactForm {
+    width: 100%;
   }
 }

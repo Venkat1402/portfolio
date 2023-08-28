@@ -59,74 +59,78 @@
           </button>
         </div>
         <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn Profile"
-            class="icon"
-            onclick="location.href='https://linkedin.com'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github Profile"
-            class="icon"
-            onclick="location.href='https://github.com'"
-          />
+          <a href="https://www.linkedin.com/in/venkat-katikam/" target="_blank">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn Profile"
+              class="icon"
+            />
+          </a>
+          <a href="https://github.com/venkat-katikam" target="_blank">
+            <img
+              src="./assets/github.png"
+              alt="My Github Profile"
+              class="icon"
+            />
+          </a>
         </div>
       </div>
     </section>
 
-    <section id="about">
-      <p class="section__text__p1">Get to know more</p>
-      <h1 class="title">About me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="assets//about-pic.jpeg"
-            alt="profile picture"
-            class="about-pic"
-          />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>3+ years <br />Frontend Development</p>
+    <div class="about-background">
+      <section id="about">
+        <p class="section__text__p1 about-text">Get to know more</p>
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="assets//about-pic.jpeg"
+              alt="profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experience</h3>
+                <p>3+ years <br />Frontend Development</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p>Bachelors Degree in Electronics and communication</p>
+              </div>
             </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>Bachelors Degree in Electronics and communication</p>
+            <div class="text-container">
+              <p class="about-text">
+                Hello there! I'm a passionate web developer with an insatiable
+                thirst for knowledge. Over the past three years, I have been
+                immersed in the dynamic world of web development, honing my
+                skills and crafting innovative digital experiences. With a
+                burning curiosity and a relentless drive to learn every day, I
+                find myself constantly exploring new technologies and trends
+                that shape the ever-evolving landscape of the web.
+              </p>
             </div>
           </div>
-          <div class="text-container">
-            <p>
-              Hello there! I'm a passionate web developer with an insatiable
-              thirst for knowledge. Over the past three years, I have been
-              immersed in the dynamic world of web development, honing my skills
-              and crafting innovative digital experiences. With a burning
-              curiosity and a relentless drive to learn every day, I find myself
-              constantly exploring new technologies and trends that shape the
-              ever-evolving landscape of the web.
-            </p>
-          </div>
         </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
-    </section>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+    </div>
 
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
@@ -273,6 +277,19 @@
           </div>
         </div>
       </div>
+      <div>
+        <p style="padding-left: 10px; padding-right: 10px; padding-bottom: 5px">
+          My journey began as a React frontend enthusiast, where I honed my
+          skills in crafting immersive user interfaces. Eager to embrace the
+          entire web development spectrum, I ventured into the realm of backend
+          development, mastering Node.js to seamlessly connect the dots to
+          become a full stack web developer.
+        </p>
+        <p style="padding-left: 10px; padding-right: 10px">
+          Presently, I'm engrossed in mastering Next.js, Typescript, and
+          Tailwind CSS to elevate my web development expertise to new heights.
+        </p>
+      </div>
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
@@ -292,128 +309,135 @@
               alt="Project-1"
               class="project-img"
             />
-            <h3 class="project-title">HTML 5</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
-              commodi?
-            </p>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
+            <div class="project-box-content">
+              <h3 class="project-title">Snake Game</h3>
+              <p>A simple snake game built using HTML, CSS and Javascript</p>
+              <div class="btn-container">
+                <a
+                  href="https://github.com/venkat-katikam/snake-game"
+                  target="_blank"
+                >
+                  <button class="btn btn-color-2 project-btn">Github</button>
+                </a>
+                <a
+                  href="https://venkat-katikam.github.io/snake-game/"
+                  target="_blank"
+                >
+                  <button class="btn btn-color-2 project-btn">Live Demo</button>
+                </a>
+              </div>
             </div>
           </div>
           <div class="project-box">
             <img
-              src="./assets/project-1.png"
-              alt="Project-1"
+              src="./assets/notes-app.PNG"
+              alt="Project-2"
               class="project-img"
             />
-            <h3 class="project-title">HTML 5</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
-              commodi?
-            </p>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
+            <div class="project-box-content">
+              <h3 class="project-title">Full stack MERN app</h3>
+              <p>
+                A Notes appliaction which has user authentication and
+                authorization with CRUD functionalities.
+              </p>
+              <div class="btn-container">
+                <a
+                  href="https://github.com/venkat-katikam/notes-app"
+                  target="_blank"
+                >
+                  <button class="btn btn-color-2 project-btn">Github</button>
+                </a>
+                <a
+                  href="https://notes-app-venkat-katikam.vercel.app/"
+                  target="_blank"
+                >
+                  <button class="btn btn-color-2 project-btn">Live Demo</button>
+                </a>
+              </div>
             </div>
           </div>
           <div class="project-box">
             <img
-              src="./assets/project-1.png"
-              alt="Project-1"
+              src="./assets/notes-app.PNG"
+              alt="Project-3"
               class="project-img"
             />
-            <h3 class="project-title">HTML 5</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
-              commodi?
-            </p>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
+            <div class="project-box-content">
+              <h3 class="project-title">Full stack MERN app</h3>
+              <p>
+                A Notes appliaction which has user authentication and
+                authorization with CRUD functionalities.
+              </p>
+              <div class="btn-container">
+                <a
+                  href="https://github.com/venkat-katikam/notes-app"
+                  target="_blank"
+                >
+                  <button class="btn btn-color-2 project-btn">Github</button>
+                </a>
+                <a
+                  href="https://notes-app-venkat-katikam.vercel.app/"
+                  target="_blank"
+                >
+                  <button class="btn btn-color-2 project-btn">Live Demo</button>
+                </a>
+              </div>
             </div>
           </div>
           <div class="project-box">
             <img
-              src="./assets/project-1.png"
-              alt="Project-1"
+              src="./assets/notes-app.PNG"
+              alt="Project-4"
               class="project-img"
             />
-            <h3 class="project-title">HTML 5</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
-              commodi?
-            </p>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
+            <div class="project-box-content">
+              <h3 class="project-title">Full stack MERN app</h3>
+              <p>
+                A Notes appliaction which has user authentication and
+                authorization with CRUD functionalities.
+              </p>
+              <div class="btn-container">
+                <a
+                  href="https://github.com/venkat-katikam/notes-app"
+                  target="_blank"
+                >
+                  <button class="btn btn-color-2 project-btn">Github</button>
+                </a>
+                <a
+                  href="https://notes-app-venkat-katikam.vercel.app/"
+                  target="_blank"
+                >
+                  <button class="btn btn-color-2 project-btn">Live Demo</button>
+                </a>
+              </div>
             </div>
           </div>
           <div class="project-box">
             <img
-              src="./assets/project-1.png"
-              alt="Project-1"
+              src="./assets/notes-app.PNG"
+              alt="Project-5"
               class="project-img"
             />
-            <h3 class="project-title">HTML 5</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
-              commodi?
-            </p>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
+            <div class="project-box-content">
+              <h3 class="project-title">Full stack MERN app</h3>
+              <p>
+                A Notes appliaction which has user authentication and
+                authorization with CRUD functionalities.
+              </p>
+              <div class="btn-container">
+                <a
+                  href="https://github.com/venkat-katikam/notes-app"
+                  target="_blank"
+                >
+                  <button class="btn btn-color-2 project-btn">Github</button>
+                </a>
+                <a
+                  href="https://notes-app-venkat-katikam.vercel.app/"
+                  target="_blank"
+                >
+                  <button class="btn btn-color-2 project-btn">Live Demo</button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -427,28 +451,86 @@
     </section>
 
     <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p>
-            <a href="mailto:venkat140299@gmail.com">venkat140299@gmail.com</a>
-          </p>
+      <div class="contactContent">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <p style="padding-top: 10px">
+          If you're interested in collaborating on exciting projects, discussing
+          emerging technologies, or simply sharing insights about the
+          ever-evolving tech industry, feel free to connect with me. Let's
+          embark on this journey of continuous learning and growth together.
+        </p>
+      </div>
+      <div class="contactContainer">
+        <div class="contactInfo">
+          <div class="contactBox">
+            <div class="contactIcon">
+              <img
+                src="./assets/email.png"
+                alt="Email icon"
+                class="icon contact-icon email-icon"
+              />
+            </div>
+            <a
+              class="contactText"
+              href="mailto:venkat140299@gmail.com"
+              target="_blank"
+            >
+              <p>venkat140299@gmail.com</p>
+            </a>
+          </div>
+          <div class="contactBox">
+            <div class="contactIcon">
+              <img
+                src="./assets/linkedin.png"
+                alt="Email icon"
+                class="icon contact-icon"
+              />
+            </div>
+            <a
+              class="contactText"
+              href="https://www.linkedin.com/in/venkat-katikam/"
+              target="_blank"
+            >
+              <p>linkedin/venkat-katikam</p>
+            </a>
+          </div>
+          <div class="contactBox">
+            <div class="contactIcon">
+              <img
+                src="./assets/github.png"
+                alt="Email icon"
+                class="icon contact-icon"
+              />
+            </div>
+            <a
+              class="contactText"
+              href="https://github.com/venkat-katikam"
+              target="_blank"
+            >
+              <p>github/venkat-katikam</p>
+            </a>
+          </div>
         </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="linkedin icon"
-            class="icon contact-icon"
-          />
-          <p>
-            <a href="https://linkedin.com">LinkedIn</a>
-          </p>
+        <div class="contactForm">
+          <form action="">
+            <h2>Send Message</h2>
+            <div class="contactInputBox">
+              <span>Full Name</span>
+              <input type="text" name="" required="required" />
+            </div>
+            <div class="contactInputBox">
+              <span>Email</span>
+              <input type="email" email="" required="required" />
+            </div>
+            <div class="contactInputBox">
+              <span>Type your message here</span>
+              <textarea required="required"></textarea>
+            </div>
+            <div class="contactInputBox">
+              <input type="submit" email="" value="Send" />
+            </div>
+          </form>
         </div>
       </div>
     </section>
