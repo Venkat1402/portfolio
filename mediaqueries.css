@@ -1,6 +1,10 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1530px) {
   .about-containers {
     flex-wrap: wrap;
+  }
+  section,
+  .section-container {
+    height: fit-content;
   }
 }
 
