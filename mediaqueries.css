@@ -2,6 +2,9 @@
   .about-containers {
     flex-wrap: wrap;
   }
+  .text-container {
+    text-align: justify;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -36,6 +39,9 @@
   }
   .about-containers {
     margin-top: 0;
+  }
+  .text-container {
+    text-align: justify;
   }
 }
 
